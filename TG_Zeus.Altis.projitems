@@ -19,4 +19,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)client\functions\" />
     <Folder Include="$(MSBuildThisFileDirectory)server\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)client\images\TG Logo.jpg" />
+  </ItemGroup>
 </Project>

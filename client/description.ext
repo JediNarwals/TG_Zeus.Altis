@@ -4,8 +4,8 @@ author = "JediNarwals [TG] & Bornasm [TG]";
 overviewText = "Be part of the community at www.TacticalGaming.com\HQ.";
 OnLoadName = "Public Zeus Operation";
 OnLoadMission = "Be part of the community at www.TacticalGaming.com\HQ.";
-//NEEDS TO BE IMPLEMENTED loadScreen = "images\loadingScreen.jpg";
-//NEEDS TO BE IMPLEMENTED overviewPicture = "images\loadingScreen.jpg";
+loadScreen = "images\loadingScreen.jpg";
+overviewPicture = "images\loadingScreen.jpg";
 
 //=================== Random Configs
 disabledAI = 1;												// Put AI in slots of players. 1 = Disabled, 0 = Enabled
