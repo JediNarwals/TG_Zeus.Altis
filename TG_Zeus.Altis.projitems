@@ -20,6 +20,6 @@
     <Folder Include="$(MSBuildThisFileDirectory)server\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)client\images\TG Logo.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)client\images\loadingscreen.jpg" />
   </ItemGroup>
 </Project>
