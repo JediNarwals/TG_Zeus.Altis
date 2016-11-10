@@ -14,6 +14,7 @@
     <None Include="$(MSBuildThisFileDirectory)client\initplayerlocal.sqf" />
     <None Include="$(MSBuildThisFileDirectory)client\mission.sqm" />
     <None Include="$(MSBuildThisFileDirectory)client\onPlayerRespawn.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\scripts\onPause.sqf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)client\functions\" />
