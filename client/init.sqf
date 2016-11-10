@@ -1,3 +1,4 @@
+call compile preprocessFile "scripts\far_revive\FAR_revive_init.sqf";			// FarRevive
 ["Initialize"] call BIS_fnc_dynamicGroups;					// Dynamic Groups by Bohimia
 
 //------------------- Tags above player heads

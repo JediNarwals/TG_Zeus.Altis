@@ -14,6 +14,10 @@
     <None Include="$(MSBuildThisFileDirectory)client\initplayerlocal.sqf" />
     <None Include="$(MSBuildThisFileDirectory)client\mission.sqm" />
     <None Include="$(MSBuildThisFileDirectory)client\onPlayerRespawn.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\scripts\far_revive\FAR_handleAction.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\scripts\far_revive\FAR_revive_funcs.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\scripts\far_revive\FAR_revive_init.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\scripts\far_revive\README.md" />
     <None Include="$(MSBuildThisFileDirectory)client\scripts\onPause.sqf" />
   </ItemGroup>
   <ItemGroup>

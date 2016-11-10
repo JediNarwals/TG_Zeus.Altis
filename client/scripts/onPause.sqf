@@ -20,10 +20,10 @@ _ESCtext =
 		(_display49 displayCtrl 2) ctrlEnable false;      
 		(_display49 displayCtrl 2) ctrlSetText "www.TacticalGaming.net/HQ";      
 		(_display49 displayCtrl 103) ctrlEnable false;      
-		(_display49 displayCtrl 103) ctrlSetText "ts2.gameservers.com:9150";
+		(_display49 displayCtrl 103) ctrlSetText "TS: 162.251.164.114:10004";
 		(_display49 displayCtrl 523) ctrlSetText profileName;      
 		(_display49 displayCtrl 109) ctrlSetText _puid;      
 		(_display49 displayCtrl 122) ctrlEnable false;      
 		(_display49 displayCtrl 122) ctrlShow false;
-		(_display49 displayCtrl 120) ctrlSetText "TacticalGaming's Public Operations US-2. For more informations on Tactical Realism join us on www.TacticalGaming.net/HQ";
+		(_display49 displayCtrl 120) ctrlSetText "TacticalGaming's Public Operations EU. For more informations on Tactical Realism join us on www.TacticalGaming.net/HQ";
 	;
