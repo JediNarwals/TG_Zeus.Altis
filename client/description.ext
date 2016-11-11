@@ -21,3 +21,31 @@ class Header
 	minPlayers = 1;
 	maxPlayers = 41;
 };
+
+//=================== Displays
+
+class RscTitles
+{
+	#include "dialog\HUDcontrol.hpp"						// Player HUD
+};
+
+//=================== Functions
+
+class CfgFunctions
+{
+	class JN
+	{
+		tag = "jedi";
+		class Dialog_Controls
+		{
+			file = "dialog\functions";
+			class hudSetup { description = "Sets up the HUD for the player."; };
+			class hudUpdate { description = "Updates the HUD for the player on actions taken against the player."; };
+		};
+		class updaters
+		{
+			file = "functions\generic";
+			class zeusupdater { description = "Adds objects to Zeus so other Curators can see."; };
+		};
+	};
+};

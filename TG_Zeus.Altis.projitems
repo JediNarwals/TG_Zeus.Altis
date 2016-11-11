@@ -10,8 +10,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)client\description.ext" />
+    <None Include="$(MSBuildThisFileDirectory)client\dialog\functions\fn_hudSetup.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\dialog\functions\fn_hudUpdate.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\dialog\HUDcontrol.hpp" />
+    <None Include="$(MSBuildThisFileDirectory)client\functions\generic\fn_zeusupdater.sqf" />
     <None Include="$(MSBuildThisFileDirectory)client\init.sqf" />
     <None Include="$(MSBuildThisFileDirectory)client\initplayerlocal.sqf" />
+    <None Include="$(MSBuildThisFileDirectory)client\initServer.sqf" />
     <None Include="$(MSBuildThisFileDirectory)client\mission.sqm" />
     <None Include="$(MSBuildThisFileDirectory)client\onPlayerRespawn.sqf" />
     <None Include="$(MSBuildThisFileDirectory)client\scripts\diary.sqf" />
@@ -21,10 +26,6 @@
     <None Include="$(MSBuildThisFileDirectory)client\scripts\far_revive\README.md" />
     <None Include="$(MSBuildThisFileDirectory)client\scripts\icons.sqf" />
     <None Include="$(MSBuildThisFileDirectory)client\scripts\onPause.sqf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)client\functions\" />
-    <Folder Include="$(MSBuildThisFileDirectory)server\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)client\images\loadingscreen.jpg" />
