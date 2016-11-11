@@ -1,5 +1,18 @@
+/*
+	@file 		initPlayerLocal.sqf
+	@author		JediNarwals [TG]
+				Bornasm [TG]
+	@description
+		Initializes the player at Start-up. Does not need to be called by any file.
+
+*/
+
 if(isDedicated) exitWith {/*Go away Server*/};
 waitUntil {!isNull player && player == player};
+
+//=========================== HUD
+
+[] spawn jedi_fnc_hudSetup;
 
 //=========================== MISC
 
@@ -13,4 +26,7 @@ player enableFatigue false;												// Disables fatigue
 //=========================== client executions
 
 {_x addCuratorEditableObjects [[player],FALSE];} count allCurators;				// Adds players to Zeus
+
+[] execVM "scripts\icons.sqf";													// blufor map tracker ~Quicksilver
+[] execVM "scripts\diary.sqf";													// diary tabs
 
